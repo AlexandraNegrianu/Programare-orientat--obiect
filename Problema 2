@@ -1,0 +1,39 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+char s[256][256], sir[256], *p;
+int nr=0;
+int main()
+{
+    
+    scanf("%[^\n]", sir);
+    p=strtok(sir, " ");
+    while(p!=NULL)
+    {
+        strcpy(s[nr], p);
+        nr++;
+        p=strtok(NULL, " ");
+    }
+    for(int i=0; i<nr-1; i++)
+    {
+        for(int j=i+1; j<nr; j++)
+        {
+            if(strlen(s[i])<strlen(s[j])) // Ordonează descrescător după lungimea șirului
+            {
+                swap(s[i], s[j]);
+            }
+            if(strlen(s[i])==strlen(s[j])) // Când cuvintele au aceeași lungime
+            {
+                if(strcmp(s[i], s[j])>0) // Nu sunt ordonate alfabetic
+                {
+                    swap(s[i], s[j]);
+                }
+            }
+        }
+    }
+    for(int i=0; i<nr; i++)
+    {
+        printf("%s \n", s[i]);
+    }
+    return 0;
+}
