@@ -7,48 +7,79 @@ using namespace std;
 
 void Sort::InsertSort(bool ascendent)
 {
-	for (int i = 1; i < nrElemente; i++) {
+	for (int i = 1;i < nrElemente;i++)
+	{
 		int key = arr[i];
 		int j = i - 1;
-		while (j > 0 && arr[j] > key) {
-			arr[j + 1] = arr[j];
-			j--;
+		if (ascendent)
+		{
+			while (j > 0 && arr[j] > key)
+			{
+				arr[j + 1] = arr[j];
+				j--;
+			}
+		}
+		else
+		{
+			while (j > 0 && arr[j] < key)
+			{
+				arr[j + 1] = arr[j];
+				j--;
+			}
 		}
 		arr[j + 1] = key;
 	}
-	ascendent = true;
 }
 
-int partitioneaza(int arr[], int p, int q) {
+int partitioneaza_descrescator(int arr[], int p, int q) {
 	int x = arr[p];
 	int i = p + 1;
-	int j = 1;
+	int j = q;
+	while (i <= j) {
+		while (arr[j] < x && i <= q) i++;
+		while (arr[j] < x && j >= p) j--;
+		if (i < j) swap(arr[i], arr[j]);
+	}
+	swap(arr[p], arr[j]);
+	return j;
+}
+
+int partitioneaza_crescator(int arr[], int p, int q) {
+	int x = arr[p];
+	int i = p + 1, j = 1;
 	while (i <= j) {
 		if (arr[i] <= x) i++;
-		else if (arr[j] >= x) j--;
-		else if (i<j && arr[i]>x && arr[j] < x) {
-			swap(arr[i], arr[j]);
-		}
+		else if (arr[j]>= x) j--;
+		else if (i < j && arr[i]>x && arr[j]<x) swap(arr[i], arr[j]);
+	}
+	arr[p] == arr[i - 1];
+	arr[i - 1] = x;
+	return i - 1;
+}
 
-		arr[p] = arr[i - 1];
-		arr[i - 1] = x;
-		return i - 1;
+void QuickSort_crescator(int arr[], int p, int q)
+{
+	if(p<q) {
+		int m = partitioneaza_crescator(arr, p, q);
+		QuickSort_crescator(arr, p, m - 1);
+		QuickSort_crescator(arr, m + 1, q);
 	}
 }
 
-void QuickSort_recursiv(int arr[], int p, int q)
+void QuickSort_descrescator(int arr[], int p, int q)
 {
-	if(p<q) {
-		int m = partitioneaza(arr, p, q);
-		QuickSort_recursiv(arr, p, m - 1);
-		QuickSort_recursiv(arr, m + 1, q);
+	if (p < q) {
+		int m = partitioneaza_descrescator(arr, p, q);
+		QuickSort_descrescator(arr, p, m - 1);
+		QuickSort_descrescator(arr, m + 1, q);
 	}
 }
 
 void Sort::QuickSort(bool ascendent)
 {
-	QuickSort_recursiv(arr, 0, nrElemente - 1);
-	ascendent = true;
+	if(ascendent==false)
+	QuickSort_descrescator(arr, 0, nrElemente - 1);
+	else QuickSort_crescator(arr, 0, nrElemente - 1);
 }
 
 
@@ -57,7 +88,10 @@ void Sort::BubbleSort(bool ascendent)
 
 	for (int i = 0; i < nrElemente - 1; i++) {
 		for (int j = i; j < nrElemente; j++) {
-			if (arr[i] > arr[j]) {
+			if (ascendent == true && arr[i] > arr[j]) {
+				swap(arr[i], arr[j]);
+			}
+			else if (arr[i] > arr[j]) {
 				swap(arr[i], arr[j]);
 			}
 		}
