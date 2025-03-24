@@ -1,0 +1,7 @@
+﻿  Math.cpp
+C:\Users\Alexandra\Desktop\Laboratoare ACSO\OOP - Lab 1 - 1\Math.cpp(15,11): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\Alexandra\Desktop\Laboratoare ACSO\OOP - Lab 1 - 1\Math.cpp(19,15): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\Alexandra\Desktop\Laboratoare ACSO\OOP - Lab 1 - 1\Math.cpp(31,11): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\Alexandra\Desktop\Laboratoare ACSO\OOP - Lab 1 - 1\Math.cpp(35,15): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\Alexandra\Desktop\Laboratoare ACSO\OOP - Lab 1 - 1\Math.cpp(62,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Alexandra\Desktop\Laboratoare ACSO\OOP - Lab 1 - 1\Math.cpp(63,4): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
