@@ -1,0 +1,10 @@
+﻿  Number.cpp
+C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab_5\Number.cpp(10,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+Number.obj : error LNK2005: "public: __cdecl Number::Number(char const *,int)" (??0Number@@QEAA@PEBDH@Z) already defined in main.obj
+Number.obj : error LNK2005: "public: __cdecl Number::~Number(void)" (??1Number@@QEAA@XZ) already defined in main.obj
+Number.obj : error LNK2005: "public: int __cdecl Number::GetBase10Value(void)" (?GetBase10Value@Number@@QEAAHXZ) already defined in main.obj
+Number.obj : error LNK2005: "public: int __cdecl Number::GetBase(void)" (?GetBase@Number@@QEAAHXZ) already defined in main.obj
+Number.obj : error LNK2005: "public: int __cdecl Number::GetDigitsCount(void)" (?GetDigitsCount@Number@@QEAAHXZ) already defined in main.obj
+Number.obj : error LNK2005: "public: void __cdecl Number::Print(void)" (?Print@Number@@QEAAXXZ) already defined in main.obj
+Number.obj : error LNK2005: "public: void __cdecl Number::SwitchBase(int)" (?SwitchBase@Number@@QEAAXH@Z) already defined in main.obj
+C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab_5\x64\Debug\Lab_5.exe : fatal error LNK1169: one or more multiply defined symbols found
