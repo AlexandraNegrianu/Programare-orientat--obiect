@@ -9,7 +9,6 @@ public:
 	Number(const char* value, int base); // where base is between 2 and 16
 	~Number(); // Distruge constructorul (se apelează la finalul programului)
 
-	// add operators and copy/move constructor
 	int GetBase10Value() const;
 
 	bool operator < (Number& num); 
@@ -17,6 +16,9 @@ public:
 	bool operator <= (Number& num);
 	bool operator >= (Number& num); 
 	bool operator == (Number& num);
+	
+	//Funcția prieten (friend function) este o funcție care nu face parte din clasă, dar are acces la membrii privați ai acesteia.
+	
 	friend Number operator+ (const Number& num1, const Number& num2);
 	friend Number operator- (const Number& num1, const Number& num2);
 

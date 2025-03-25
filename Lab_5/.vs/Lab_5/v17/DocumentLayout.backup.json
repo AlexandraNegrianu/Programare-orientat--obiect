@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab_5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8613699C-6FA0-42C4-AAD7-2132C4CB2A09}|Lab_5.vcxproj|C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab_5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8613699C-6FA0-42C4-AAD7-2132C4CB2A09}|Lab_5.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8613699C-6FA0-42C4-AAD7-2132C4CB2A09}|Lab_5.vcxproj|C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab_5\\Number.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8613699C-6FA0-42C4-AAD7-2132C4CB2A09}|Lab_5.vcxproj|solutionrelative:Number.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8613699C-6FA0-42C4-AAD7-2132C4CB2A09}|Lab_5.vcxproj|C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab_5\\Number.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8613699C-6FA0-42C4-AAD7-2132C4CB2A09}|Lab_5.vcxproj|solutionrelative:Number.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8613699C-6FA0-42C4-AAD7-2132C4CB2A09}|Lab_5.vcxproj|C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab_5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8613699C-6FA0-42C4-AAD7-2132C4CB2A09}|Lab_5.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab_5\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab_5\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-24T08:42:23.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Number.h",
               "DocumentMoniker": "C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab_5\\Number.h",
               "RelativeDocumentMoniker": "Number.h",
               "ToolTip": "C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab_5\\Number.h",
               "RelativeToolTip": "Number.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-24T08:42:50.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Number.cpp",
               "DocumentMoniker": "C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab_5\\Number.cpp",
               "RelativeDocumentMoniker": "Number.cpp",
               "ToolTip": "C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab_5\\Number.cpp",
               "RelativeToolTip": "Number.cpp",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-24T08:42:39.972Z",
               "EditorCaption": ""

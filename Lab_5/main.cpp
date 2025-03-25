@@ -43,4 +43,8 @@ int main() {
 	cout << endl << "Exemplu numar--" << endl;
 	--numar2;
 	numar2.Print1();
+
+	cout << endl<<"Exemplu operator > sau <"<<endl;
+	if (numar4 > numar5) cout << numar4.GetBase10Value() << " este mai mare decat " << numar5.GetBase10Value() << endl;
+	else cout << numar5.GetBase10Value() << " este mai mare decat " << numar4.GetBase10Value() << endl;
 }

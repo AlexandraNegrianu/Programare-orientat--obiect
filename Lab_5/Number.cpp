@@ -127,14 +127,14 @@ Number operator-(const Number& num1, const Number& num2){
     return Number(rezultat, bazamaxima);
 }
 
-Number& Number::operator--()
+Number& Number::operator--() // Prefix și returnează o referință la obiectul dat
 {
     strcpy(numar, numar + 1);
     lungime = strlen(numar); // Actualizăm lungimea după modificare 
-    return *this;
+    return *this; // *this este obiectul curent, iar funcția returnează o copie a acestuia
 }
-
-Number Number::operator--(int)
+ 
+Number Number::operator--(int) // Sufix. (int) este un parametru fictiv pentru a face diferența între sufix și prefix. Returnează o copie a obiectului dat
 {
     numar[strlen(numar) - 1] = '\0';
     lungime = strlen(numar); 
