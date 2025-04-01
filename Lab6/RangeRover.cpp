@@ -25,3 +25,4 @@ int RangeRover::RaceTime(int lungime, Weather vreme) {
 		return -1;
 	else return lungime / viteza_medie[vreme]; // În caz contrar se calculează timpul necesar
 }
+

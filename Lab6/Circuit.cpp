@@ -24,11 +24,11 @@ void Circuit::Race() {
 void Circuit::ShowFinalRanks() {
 	for (int i = 0; i < nr_masini;i++)
 		if (timp[i])
-			cout << masina[i]->GetName() << " " << timp[i] << endl;
+			cout << masina[i]->GetName() << " a reusit sa termine cursa in " << timp[i] << endl;
 }
 
 void Circuit::ShowWhoDidNotFinish() {
 	for (int i = 0; i < nr_masini;i++)
 		if (!timp[i])
-			cout << masina[i]->GetName() << " " << timp[i] << endl;
+			cout << masina[i]->GetName() << " nu a reusit sa termine cursa" << endl;
 }
