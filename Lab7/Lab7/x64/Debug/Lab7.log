@@ -1,0 +1,47 @@
+﻿  main.cpp
+C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\Tree.h(42,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+      C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\Tree.h(42,21):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\main.cpp(20,15):
+          see reference to class template instantiation 'Tree<int>' being compiled
+          C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\Tree.h(33,7):
+          while compiling class template member function 'void Tree<int>::printTree(Node<T> *,const std::string &,bool)'
+          with
+          [
+              T=int
+          ]
+              C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\main.cpp(37,20):
+              see the first reference to 'Tree<int>::printTree' in 'main'
+  
+C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\Tree.h(107,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+      C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\Tree.h(107,21):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\Tree.h(100,11):
+          while compiling class template member function 'Node<T> *Tree<T>::find_node_rec(Node<T> *,T)'
+          with
+          [
+              T=int
+          ]
+              C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\Tree.h(115,3):
+              see the first reference to 'Tree<int>::find_node_rec' in 'Tree<int>::find_node'
+              C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\main.cpp(25,19):
+              see the first reference to 'Tree<int>::find_node' in 'main'
+  
+C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\Tree.h(85,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+      C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\Tree.h(85,21):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\Tree.h(80,4):
+          while compiling class template member function 'T Tree<T>::find_rec(Node<T> *,T)'
+          with
+          [
+              T=int
+          ]
+              C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\Tree.h(96,3):
+              see the first reference to 'Tree<int>::find_rec' in 'Tree<int>::find'
+              C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\main.cpp(35,15):
+              see the first reference to 'Tree<int>::find' in 'main'
+  
+  Lab7.vcxproj -> C:\Users\Alexandra\Desktop\Laboratoare ACSO\Programare-orientat--obiect\Lab7\x64\Debug\Lab7.exe
