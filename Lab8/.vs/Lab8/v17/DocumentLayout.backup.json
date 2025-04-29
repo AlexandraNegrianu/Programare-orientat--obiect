@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE59BFD-6814-45C9-BFF8-4A62B5D4B86B}|Lab8.vcxproj|C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab8\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3FE59BFD-6814-45C9-BFF8-4A62B5D4B86B}|Lab8.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FE59BFD-6814-45C9-BFF8-4A62B5D4B86B}|Lab8.vcxproj|C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab8\\file.in||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3FE59BFD-6814-45C9-BFF8-4A62B5D4B86B}|Lab8.vcxproj|solutionrelative:file.in||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab8\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab8\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-29T09:17:25.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "file.in",
+              "DocumentMoniker": "C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab8\\file.in",
+              "RelativeDocumentMoniker": "file.in",
+              "ToolTip": "C:\\Users\\Alexandra\\Desktop\\Laboratoare ACSO\\Programare-orientat--obiect\\Lab8\\file.in",
+              "RelativeToolTip": "file.in",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-29T09:15:57.824Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
