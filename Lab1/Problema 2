@@ -1,0 +1,33 @@
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+int i,j,k;
+char s[100],a[100][100],*p;
+int main()
+{
+
+    scanf("%[^\n]",s);
+
+    p=strtok(s," ");
+    while(p)
+    {
+        strcpy(a[++k],p);
+        p=strtok(NULL," ");
+    }
+    for(i=1; i<=k; i++)
+        for(j=i; j<=k; j++)
+        {
+            if(strlen(a[i])<strlen(a[j]))
+                swap(a[i],a[j]);
+            else if(strlen(a[i])==strlen(a[j]))
+                if(strcmp(a[i],a[j])>0)
+                    swap(a[i],a[j]);
+
+        }
+
+    for(i=1; i<=k; i++)
+        printf("%s\n",a[i]);
+    return 0;
+
+}
