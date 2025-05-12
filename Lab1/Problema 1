@@ -1,0 +1,31 @@
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+int sum;
+int conversie(char c[])
+{
+    int nr=0;
+    for(int i=0;i<strlen(c);i++)
+        nr=nr*10+(c[i]-'0');
+
+    return nr;
+
+}
+char c[100];
+int main()
+{
+
+    FILE *fisier;
+    fisier=fopen("in.txt","r");
+
+    while(fscanf(fisier,"%s",c)==1)
+    {
+        int nrnou=conversie(c);
+        sum=sum+nrnou;
+    }
+    printf("%d",sum);
+    fclose(fisier);
+    return 0;
+
+}
